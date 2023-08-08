@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>EMOV</title>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+        <header>
+            <!-- <h1>E<span>mov</span></h1> -->
+            <img src="img/logo emov.png" alt="">
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosostros</a>                
+                <a href="#galeria" onclick="seleccionar()">Galeria</a>
+                <a href="#equipo" onclick="seleccionar()">equipo</a>
+                <a href="#contacto" onclick="seleccionar()">contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>                
+            </div>
+            <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <!-- Seccion inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>LA COMBINACION <span class="txtRojo">PERFECTA</span></h2>
+                <p>Entre las manos y el cerebro</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.CURSOS
+                </div>
+                <div class="opcion">
+                    02.CAPACITACIONES
+                </div>
+                <div class="opcion">
+                    03.ENSEÑANZA
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion nosotros -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <dic class="col">
+                <img src="img/foto3.png" alt="">
+            </dic>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>Nosotros</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit placeat in aliquam officia necessitatibus deleniti. Asperiores iste nesciunt laborum, voluptatibus quasi laboriosam sunt, porro, voluptatum dolorem alias quibusdam suscipit?</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">CAPACITACIONES </span>DIFERENTES
+                </span>
+                <h2>APRENDE <span class="txtRojo">DE FORMA DIDACTICA</span></h2>
+            </div>
+            <div class="col2">
+                <button onclick="location.href='#contacto'">CONTACTO</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion galeria -->
+    <section id="galeria" class="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    02
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/foto 4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion equipo -->
+    <section id="equipo" class="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    03
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/foto 5.png" alt="">
+                    <div class="info">
+                        <h2>ROMAN</h2>
+                        <p>Kinesiologo</p>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/foto 5.png" alt="">
+                    <div class="info">
+                        <h2>ROMAN</h2>
+                        <p>Kinesiologo</p>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="ingrese email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="ingrese nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="ingrese mensaje"></textarea>
+                <button>enviar mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    negro feo
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    21312312
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">emov</span> derechos reservados</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
