@@ -83,6 +83,7 @@ body{
 .inicio .info h2{
     font-size: 3.5rem;
     letter-spacing: 3px;
+    text-align: center;
 }
 .inicio .info p{
     margin: 20px;
@@ -416,10 +417,13 @@ footer .info a{
     header .redes{
         display: none;
     }
+    #numero{
+        font-size: 3rem;
+    }
     .nav-responsive{
         display: block;
     }
-
+    
     nav.responsive{
         display: flex;
         flex-direction: column;
@@ -438,8 +442,18 @@ footer .info a{
         margin: 10px auto;
         font-size: 30px;
     }
+    .inicio .info h2{
+        font-size: 3rem;
+    }
     .inicio .opciones{
-        display: none;
+        display: block;
+        text-align: center;
+    }
+    .inicio .opciones .opcion{
+        margin-top: 10px;
+    }
+    .nosotros{
+        height: auto;
     }
     .nosotros .fila{
         display: block;
@@ -447,10 +461,21 @@ footer .info a{
     .nosotros .fila .col{
         width: 100%;
     }
+    
     .nosotros .fila .col img{
         max-width: 200px;
         display: block;
         margin: auto;
+    }
+    .nosotros .fila-nosotros{
+        display: block;
+        
+    }
+    .galeria{
+        height: auto;
+    }
+    .galeria .contenido-seccion .fila{
+        display: block;
     }
     .equipo{
         height: auto;
@@ -472,6 +497,9 @@ footer .info a{
     .equipo .info{
         max-width: 250px;
         margin: auto;
+    }
+    .contacto .contenedor-titulo .info h2{
+        font-size: 2rem;
     }
     .contacto .fila{
         display: block;
