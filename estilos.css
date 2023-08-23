@@ -463,6 +463,7 @@ footer .info a{
         max-width: 200px;
         display: block;
         margin: auto;
+        padding-bottom: 20px;
     }
     .nosotros .fila-nosotros{
         display: block;
